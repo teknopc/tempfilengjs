@@ -1,0 +1,66 @@
+{
+    "name": "smloadr",
+    "version": "1.25.1",
+    "description": "A streaming music downloader written in NodeJS.",
+    "author": "SMLoadrDevs",
+    "contributors": [
+        "SMLoadrDevs"
+    ],
+    "license": "CC-BY-NC-4.0",
+    "homepage": "https://github.com/SMLoadr/SMLoadr",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SMLoadr/SMLoadr.git"
+    },
+    "bugs": {
+        "url": "https://github.com/SMLoadr/SMLoadr/issues"
+    },
+    "keywords": [
+        "download",
+        "streaming",
+        "mp3",
+        "flac",
+        "music",
+        "deezloader",
+        "desktop",
+        "macos",
+        "osx",
+        "windows",
+        "linux",
+        "ubuntu",
+        "deezloader remix",
+        "deezloader remix docker",
+        "deezloader remix mobile",
+        "deezloader remaster",
+        "deezloader reborn",
+        "@musichuntersbot",
+        "telegram music hunters bot"
+    ],
+    "engines": {
+        "node": ">=9.0.0"
+    },
+    "dependencies": {
+        "bluebird": "^3.7.2",
+        "cache-manager": "^3.4.3",
+        "chalk": "^4.1.1",
+        "command-line-args": "^5.1.1",
+        "command-line-usage": "^6.1.1",
+        "inquirer": "^8.0.0",
+        "jsonfile": "^6.1.0",
+        "openurl": "^1.1.1",
+        "ora": "^5.4.0",
+        "request": "^2.88.2",
+        "request-plus": "^2.0.0",
+        "sanitize-filename": "^1.6.3",
+        "winston": "^3.3.3"
+    },
+    "devDependencies": {
+        "pkg": "5.0.0"
+    },
+    "preferGlobal": true,
+    "main": "SMLoadr.js",
+    "bin": "SMLoadr.js",
+    "scripts": {
+        "start": "node ./SMLoadr.js"
+    }
+}
